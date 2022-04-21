@@ -14,7 +14,7 @@ class Ingredient {
     if (isNaN.number) return quantity + number;
     console.log(`you have ${this.quantity}, ${this.name}`);
   }
-  /*check if */
+  /*check if an item has a quantity higher than 0 and returns true or false, it's value shoul be stored in the available property  */
   isAvailable(quantity) {
     const available = (quantity) => quantity > 0;
     return item.every(available);
